@@ -38,4 +38,5 @@ class TableViewCell: UITableViewCell {
         nameLbl.text = user.name
         descriptionLbl.text = user.description
     }
+    
 }

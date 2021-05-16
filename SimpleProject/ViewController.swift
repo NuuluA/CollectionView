@@ -21,11 +21,6 @@ class ViewController: UIViewController {
         tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: identifierID)
     }
     
-//    func config(user: User) {
-//        imageView.image = user.image
-//        nameLbl.text = user.name
-//        descriptionLbl.text = user.description
-//    }
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
